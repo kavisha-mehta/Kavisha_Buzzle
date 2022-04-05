@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0; 
+    z-index: 100;
+    background-color: white;
+}
+
+.header_left{
+    display: flex;
+    align-items: center;
+}
+
+.header_input{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid lightgray;
+}
+
+.Header_right_button{
+    margin-right: 8px;
+
+}
+.Header_right_button > button{
+   font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    color: white;
+    border-radius: 10%;
+    justify-content: space-between;
+}
+
+.header_inputButton{
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    color: gray;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+}
+
+.header_input > input{
+    flex: 1;
+    border: none;
+}
