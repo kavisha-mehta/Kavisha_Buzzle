@@ -71,7 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 ### Components of the React project
-Header
-SideBar
-SideBarRow
-Recommended_videos
+Header,
+SideBar,
+SideBarRow,
+Recommended_videos,
